@@ -1,0 +1,30 @@
+{
+    "seed": 26008,
+    "representation": "AE-512",
+    "standardization": "Reused from Q3(c)",
+    "training_subset_size": 5000,
+    "C_values": [
+        0.001,
+        0.01,
+        0.1,
+        1,
+        10
+    ],
+    "kernels": [
+        "linear",
+        "poly",
+        "rbf"
+    ],
+    "gamma": "scale",
+    "polynomial_degree": 3,
+    "polynomial_coef0": 1.0,
+    "svm_selection": "Highest validation accuracy",
+    "clustering_method": "KMeans",
+    "cluster_candidates": [
+        5,
+        10,
+        15,
+        20
+    ],
+    "cluster_selection": "Highest validation silhouette score"
+}

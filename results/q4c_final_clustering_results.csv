@@ -1,0 +1,2 @@
+Representation,Method,Clusters,Validation Silhouette,Test ARI,Test NMI
+AE-512,KMeans,5,0.001623139251023531,0.0530079851101097,0.0914667578456719

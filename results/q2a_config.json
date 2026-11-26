@@ -1,0 +1,21 @@
+{
+    "seed": 26008,
+    "model": "CNN",
+    "channels": [
+        3,
+        64,
+        128,
+        256,
+        256
+    ],
+    "kernel_size": 3,
+    "parameters": 963466,
+    "optimizer": "SGD",
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "epochs": 30,
+    "batch_size": 128,
+    "mlp_baseline": "q1a_sgd",
+    "parameter_difference_percent": 8.452850841769397,
+    "checkpoint_selection": "Highest validation accuracy"
+}

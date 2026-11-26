@@ -1,0 +1,27 @@
+{
+    "seed": 26008,
+    "bottleneck_sizes": [
+        32,
+        128,
+        512
+    ],
+    "encoder_channels": [
+        3,
+        32,
+        64,
+        128
+    ],
+    "kernel_size": 4,
+    "stride": 2,
+    "padding": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "MSELoss",
+    "pixel_range": [
+        -1,
+        1
+    ],
+    "checkpoint_selection": "Lowest validation MSE"
+}

@@ -1,0 +1,25 @@
+Pair,Dataset,Image Index,True Class,Decision Score,Pairwise Decision,Multiclass Prediction
+cat vs dog,Training support vector,43720,cat,0.749735246652908,cat,
+cat vs dog,Training support vector,24036,cat,0.8352077248526555,cat,
+cat vs dog,Training support vector,48208,dog,-0.704463950826507,dog,
+cat vs dog,Training support vector,3420,dog,-0.9994980866338862,dog,
+cat vs dog,Near-boundary test,8275,cat,0.0001249588667017465,cat,deer
+cat vs dog,Near-boundary test,6825,cat,-0.0006975676530993902,dog,dog
+cat vs dog,Near-boundary test,9661,dog,-0.00031921385886338194,dog,dog
+cat vs dog,Near-boundary test,2061,dog,-0.0003648790297623161,dog,dog
+automobile vs truck,Training support vector,23164,automobile,0.9994926865231227,automobile,
+automobile vs truck,Training support vector,7605,automobile,0.9995173765479496,automobile,
+automobile vs truck,Training support vector,44744,truck,-0.9995193709722902,truck,
+automobile vs truck,Training support vector,34628,truck,-0.9995230400083215,truck,
+automobile vs truck,Near-boundary test,5483,automobile,4.923159113472478e-05,automobile,automobile
+automobile vs truck,Near-boundary test,122,automobile,0.0009840030423519837,automobile,frog
+automobile vs truck,Near-boundary test,6882,truck,-0.0008714366074633016,truck,truck
+automobile vs truck,Near-boundary test,8726,truck,-0.000983040220914052,truck,truck
+bird vs deer,Training support vector,5647,bird,-0.08748882680791564,deer,
+bird vs deer,Training support vector,12166,bird,0.35343493540859533,bird,
+bird vs deer,Training support vector,22284,deer,-0.4126134403657223,deer,
+bird vs deer,Training support vector,48780,deer,-0.7223841767560517,deer,
+bird vs deer,Near-boundary test,5344,bird,0.0008980685281054224,bird,dog
+bird vs deer,Near-boundary test,6604,bird,-0.0031430134682546296,deer,dog
+bird vs deer,Near-boundary test,9612,deer,-0.0004330795533333265,deer,cat
+bird vs deer,Near-boundary test,3635,deer,-0.003475008688962389,deer,deer

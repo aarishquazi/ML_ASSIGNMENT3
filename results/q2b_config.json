@@ -1,0 +1,14 @@
+{
+    "seed": 26008,
+    "transformation": "Fixed spatial pixel permutation",
+    "permutation_file": "results/q2b_pixel_permutation.npy",
+    "rgb_channels_kept_together": true,
+    "epochs": 30,
+    "batch_size": 128,
+    "optimizer": "SGD",
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "mlp_parameters": 1052426,
+    "cnn_parameters": 963466,
+    "checkpoint_selection": "Highest validation accuracy"
+}

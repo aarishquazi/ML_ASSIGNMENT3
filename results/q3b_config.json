@@ -1,0 +1,22 @@
+{
+    "seed": 26008,
+    "bottleneck": 512,
+    "parameters": 2430787,
+    "corruption": "Gaussian noise",
+    "noise_std": 0.4,
+    "pixel_range": [
+        -1,
+        1
+    ],
+    "noise_train_seed": 26009,
+    "noise_val_seed": 26010,
+    "noise_test_seed": 26011,
+    "epochs": 30,
+    "batch_size": 128,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "MSELoss",
+    "clean_ae_baseline": "q3a_ae_512.pth",
+    "fixed_classifier": "cnn_best.pth",
+    "checkpoint_selection": "Lowest validation MSE"
+}

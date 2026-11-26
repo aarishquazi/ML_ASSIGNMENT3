@@ -1,0 +1,17 @@
+{
+    "seed": 26008,
+    "bottleneck_sizes": [
+        32,
+        128,
+        512
+    ],
+    "encoder_frozen": true,
+    "classifier": "Linear",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "batch_size": 128,
+    "loss": "CrossEntropyLoss",
+    "standardization": "Training features only",
+    "checkpoint_selection": "Highest validation accuracy"
+}

@@ -1,0 +1,19 @@
+{
+    "seed": 26008,
+    "architecture": [
+        3072,
+        1024,
+        1024,
+        1024,
+        1024,
+        1024,
+        10
+    ],
+    "parameters": 7355402,
+    "noisy_fraction": 0.3,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "initial_epochs": 100,
+    "memorisation_target_accuracy": 90
+}

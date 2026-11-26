@@ -1,0 +1,10 @@
+Condition,True Class,Predicted Class,Number of Errors
+Clean,cat,dog,207
+Clean,ship,airplane,116
+Clean,dog,cat,109
+Pixel Shuffled,automobile,truck,286
+Pixel Shuffled,cat,dog,255
+Pixel Shuffled,deer,frog,232
+Patch Shuffled,cat,dog,248
+Patch Shuffled,truck,automobile,176
+Patch Shuffled,dog,cat,150

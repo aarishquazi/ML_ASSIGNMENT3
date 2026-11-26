@@ -1,0 +1,2 @@
+Representation,Kernel,C,Training Accuracy (%),Validation Accuracy (%),Test Accuracy (%),Support Vector Fraction
+AE-512,rbf,10,99.92,46.46,45.879999999999995,0.9842

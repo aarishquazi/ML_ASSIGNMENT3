@@ -1,0 +1,15 @@
+{
+    "starting_checkpoint": "q2a_cnn.pth",
+    "starting_epoch": 28,
+    "seed": 26008,
+    "optimizer": "SGD",
+    "initial_learning_rate": 0.005,
+    "momentum": 0.9,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 3,
+    "early_stopping_patience": 10,
+    "max_extra_epochs": 70,
+    "actual_extra_epochs": 41,
+    "best_extra_epoch": 31,
+    "best_validation_accuracy": 81.56
+}

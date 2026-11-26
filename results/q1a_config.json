@@ -1,0 +1,19 @@
+{
+    "seed": 26008,
+    "architecture": [
+        3072,
+        256,
+        256,
+        256,
+        256,
+        256,
+        10
+    ],
+    "epochs": 30,
+    "batch_size": 128,
+    "sgd_lr": 0.01,
+    "sgd_momentum": 0.9,
+    "adam_lr": 0.001,
+    "loss": "CrossEntropyLoss",
+    "checkpoint_selection": "Highest validation accuracy"
+}

@@ -1,0 +1,13 @@
+{
+    "seed": 26008,
+    "transformation": "Fixed patch shuffling",
+    "patch_size": 8,
+    "number_of_patches": 16,
+    "permutation_file": "results/q2c_patch_permutation.npy",
+    "epochs": 30,
+    "batch_size": 128,
+    "optimizer": "SGD",
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "checkpoint_selection": "Highest validation accuracy"
+}

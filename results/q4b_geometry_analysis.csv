@@ -1,0 +1,4 @@
+Class Pair,Mutual Confusions,Pair Support Vectors,Near Boundary Error (%),Remaining Error (%),Centroid Distance,Centroid Separation Ratio
+cat vs dog,421,965,76.5,63.888888888888886,2.260123,0.09772371
+automobile vs truck,361,938,61.0,40.77777777777778,4.2789626,0.16815916
+bird vs deer,303,870,81.5,63.5,2.5893438,0.13444251
